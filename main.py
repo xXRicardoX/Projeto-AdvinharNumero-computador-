@@ -24,11 +24,11 @@ def computer_guess(x):
         feedback = input(f'É {guess} muito alto (A), muito baixo(B), ou correto(C)??? ').lower()
         if feedback == 'a':
             high = guess -1
-
         elif feedback == 'b':
             low = guess + 1
     print(f'Wow!! O computador adivinhou o seu numero, {guess}, corretamente !!! ')
 
-guess(10)
+computer_guess(100)
+guess(100)
 
 
